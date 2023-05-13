@@ -1,0 +1,1 @@
+powershell.exe "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object System.Net.WebClient).DownloadFile(\"https://download.sysinternals.com/files/PSTools.zip\", \"C:\Jenkins\Temp\PSTools.zip\")"
